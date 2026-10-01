@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Applyline Privacy</title>
+  <link rel="stylesheet" href="shared/tokens.css">
+  <style>
+    main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+    h1 { font: 700 var(--t-32)/1.2 var(--font-display); margin: 0 0 8px; letter-spacing: -0.01em; }
+    h2 { font-size: var(--t-16); margin: 32px 0 8px; }
+    p, li { color: var(--text-2); }
+    .updated { color: var(--text-3); font-size: var(--t-12); }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Privacy policy</h1>
+    <p class="updated">Last updated 28 September 2026 · Applyline by Fenwick Labs</p>
+
+    <h2>What Applyline stores</h2>
+    <p>Your profile, resume, saved answers, job tracker, settings, and (if you add one) your Anthropic API key. All of it is stored with <code>chrome.storage.local</code> on your computer. Fenwick Labs has no servers for Applyline and never receives this data.</p>
+
+    <h2>What leaves your computer</h2>
+    <ul>
+      <li><strong>Job applications you fill.</strong> Applyline enters your details into application forms on the job sites you use. Those sites receive what you (or Applyline on your behalf) submit.</li>
+      <li><strong>AI tailoring (optional).</strong> If you add your own Anthropic API key, the job description and your master resume are sent to <code>api.anthropic.com</code> to score your fit and write a tailored resume and cover letter. This is governed by Anthropic's terms for your API account.</li>
+    </ul>
+
+    <h2>What Applyline never does</h2>
+    <ul>
+      <li>Sell, share or upload your data to Fenwick Labs or third parties.</li>
+      <li>Fill passwords, government IDs, bank or card details, or dates of birth.</li>
+      <li>Run on sites other than the supported job application platforms listed in the Chrome Web Store.</li>
+    </ul>
+
+    <h2>Permissions</h2>
+    <ul>
+      <li><strong>storage</strong> — keep your profile and tracker on this computer.</li>
+      <li><strong>alarms</strong> — start overnight runs at the time you choose.</li>
+      <li><strong>power</strong> — keep the computer awake only while an overnight run is active.</li>
+      <li><strong>Job-site access</strong> (Greenhouse, Lever, Ashby, Workable, SmartRecruiters, Workday) — read job descriptions and fill application forms.</li>
+      <li><strong>api.anthropic.com</strong> — only used when you add your own API key.</li>
+    </ul>
+
+    <h2>Deleting your data</h2>
+    <p>Open Applyline → Settings → Delete all data, or uninstall the extension. Both remove everything Applyline stored.</p>
+
+    <h2>Contact</h2>
+    <p>Questions: <a href="mailto:support@fenwicklabs.com">support@fenwicklabs.com</a></p>
+  </main>
+</body>
+</html>
